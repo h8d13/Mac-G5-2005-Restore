@@ -36,7 +36,7 @@ Bringing our ram from 512 mb (2x 256mb) to 8Gib. Which is considerable upgrade!
 
 ## Memory
 ---
-We can use regular SATA SSDs which are backward compatible even tho we will not get the full speed you cna get them for cheap reconditionned (20$ for 512 GiB)
+We can use regular SATA SSDs which are backward compatible even tho we will not get the full speed, you can get them for cheap reconditionned (20$ for 512 GiB)
 
 ## GPU
 ---
