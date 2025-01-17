@@ -28,7 +28,7 @@ Better to check the cables for damage (often  present when they were plugged-in/
 ## RAM
 ---
 
-The original ram sticks are horrible for modern comparison, so we can upgrade safely with backwards compatibility to:
+The original ram sticks are horrible for modern comparison, upgrade safely with backwards compatibility to:
 
 240 Pin Dimm - 1.8v - PC2-4200 (533Mhz) - ECC Registered x4 2GiB
 
