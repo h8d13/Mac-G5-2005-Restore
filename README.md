@@ -16,7 +16,7 @@ Luckily from the 3 I bought 2 of them were the later 2.3 Ghz releases which use 
 
 ![1e4da476-6ee0-4aed-aafc-71de666b32878145070884849698766](https://github.com/user-attachments/assets/b7df1aa5-77a9-419b-b09e-df51c4f6f867)
 
-So this is a C19-C20 cable for the later 2005 g5's.The cases of theses are super heavy and cool looking!
+So this is a C19-C20 cable for the later 2005 g5's.The cases are super heavy but also cool looking!
 
 While earlier versions use the common C13-C14 cables you find on many devices still to this day. 
 
