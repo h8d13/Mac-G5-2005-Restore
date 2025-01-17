@@ -40,7 +40,7 @@ We can use regular SATA SSDs which are backward compatible even tho we will not 
 
 ## GPU
 ---
-You can also go wild and upgrade GPU using regular PCIe connectors, you can also get modifications boards with th remaining PCIe slots!
+You can also go wild and upgrade GPU using regular PCIe connectors, you can also get modifications boards with the remaining PCIe slots!
 
 
 
