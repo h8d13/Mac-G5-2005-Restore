@@ -18,10 +18,9 @@ Luckily from the 3 I bought 2 of them were the later 2.3 Ghz releases which use 
 
 So this is a C19-C20 cable for the later 2005 g5's.The cases are super heavy but also cool looking!
 
-While earlier versions use the common C13-C14 cables you find on many devices still to this day. 
+These can draw 30-50% more amps, while earlier versions use the common C13-C14 cables you find on many devices still to this day. 
 
-The power supply on these is seated at the bottom and takes the full width of the base of the computer, it's a pretty crazy set-up but they can be found second hand or refurbished.
-It is also quite ez to retrofubrish a more modern PSU into the case. 
+The power supply on these is seated at the bottom and takes the full width of the base of the computer, it's a pretty crazy set-up but they can be found second hand or refurbished.It is also quite ez to retrofubrish a more modern PSU into the case. 
 
 Better to check the cables for damage (often  present when they were plugged-in/out many times) and get new cables. I decided to get new ones cause mine looked like hell. 
 
