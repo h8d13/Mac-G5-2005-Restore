@@ -49,8 +49,6 @@ Check Casey Cullen's channel out on YouTube!!!!!
 
 ## Booting
 ---
-Had to make sure to get a yaboot version of Debian. https://cdimage.debian.org/cdimage/ports/10.0/powerpc/iso-cd/
-Note: This is cool because it's a very minimal install 300mb and didn't connect it to the internet so that I can truly start from the ground up. 
 
 Hold command and option at the same time + O and F (OpenFirmware) 
 You should now see a console like white terminal. 
