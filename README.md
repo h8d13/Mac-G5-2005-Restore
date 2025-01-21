@@ -41,9 +41,34 @@ We can use regular SATA SSDs which are backward compatible even tho we will not 
 ---
 You can also go wild and upgrade GPU using regular PCIe connectors, you can also get modifications boards with the remaining PCIe slots!
 
+## SPECIAL THANKS
+---
+https://www.youtube.com/watch?v=cS58kQ10qas
 
+Check Casey Cullen's channel out on YouTube!!!!!
 
+## Booting
+---
+Had to make sure to get a yaboot version of Debian. https://cdimage.debian.org/cdimage/ports/10.0/powerpc/iso-cd/
+Note: This is cool because it's a very minimal install 300mb and didn't connect it to the internet so that I can truly start from the ground up. 
 
+Hold command and option at the same time + O and F (OpenFirmware) 
+You should now see a console like white terminal. 
+If you're struggling to see this screen here are two tips:
+  If you're using a regular keyboard its ALT and Windows key.
+  If you're seeing the regular old OS directly i recommend removing the drive altogether. 
 
+The video above explains nicely how to use:
+``` dev / ls ```
+
+Which helps to find all your devices (didn't want to burn a CD, it's not 2005 unfortunalty)
+
+You can then boot from USB (I used the 3rd port down on back panel) 
+``` boot usb3/disk@2:2;\\yaboot ``` 
+
+Disk 2: partiton 2 is default
+
+Getting started
+---
 
 
