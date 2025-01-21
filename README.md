@@ -54,8 +54,8 @@ Hold command and option at the same time + O and F (OpenFirmware)
 You should now see a console like white terminal. 
 
 If you're struggling to see this screen here are two tips:
-  If you're using a regular keyboard its ALT and Windows key.
-  If you're seeing the regular old OS directly i recommend removing the drive altogether. 
+_  If you're using a regular keyboard its ALT and Windows key.
+  If you're seeing the regular old OS directly i recommend removing the drive altogether. _
 
 The video above explains nicely how to use:
 ```
@@ -65,6 +65,10 @@ devalias
 ```
 
 You need to look for devices listed under UD, USB, DISK
+
+You can use space or arrow down to scroll. 
+
+![img_1334](https://github.com/user-attachments/assets/b65c0c15-e215-4bed-ad5e-bcc172a70b16)
 
 Which helps to find all your devices (didn't want to burn a CD, it's not 2005 unfortunalty)
 
@@ -91,7 +95,7 @@ Attempt #2
 
 So I thought let's try something else...
 
-I used the ISO from the video:
+I used the ISO from the video: Rufus to flash so it autodetects settings. 
 
 https://fienixppc.blogspot.com/p/blog-page.html
 
