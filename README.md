@@ -123,7 +123,6 @@ Also comes with Synaptic which is a neat package manager.
 
 ![20250121_174349](https://github.com/user-attachments/assets/4ca7f46a-3a73-4152-b555-b15ac48908bf)
 
-
 I also checked out the ressource monitor to find out:
 Disk is newer SSD with 500GB with 5.5GB for the OS. 
 Made basic DD test:
