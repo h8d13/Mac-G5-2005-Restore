@@ -137,5 +137,7 @@ CPU(1 and 2) is between 3-13% in idle which is great.
 
 I did find them to jump a lot. And let's say the patterns are interesting to say the least:
 
+![20250121_175718](https://github.com/user-attachments/assets/9bb273a3-6add-4e8c-b2f3-cda1afd81d8d)
 
+^^ Yes that's 100% on both cores just launching the browser.
 
