@@ -53,9 +53,9 @@ Check Casey Cullen's channel out on YouTube!!!!!
 Hold command and option at the same time + O and F (OpenFirmware) 
 You should now see a console like white terminal. 
 
-If you're struggling to see this screen here are two tips:
-_  If you're using a regular keyboard its ALT and Windows key.
-  If you're seeing the regular old OS directly i recommend removing the drive altogether. _
+**If you're struggling to see this screen here are two tips:**
+- If you're using a regular keyboard its ALT and Windows key.
+- If you're seeing the regular old OS directly i recommend removing the drive altogether.
 
 The video above explains nicely how to use:
 ```
