@@ -57,16 +57,50 @@ If you're struggling to see this screen here are two tips:
   If you're seeing the regular old OS directly i recommend removing the drive altogether. 
 
 The video above explains nicely how to use:
-``` dev / ls ```
+```
+dev / ls 
+or
+devalias 
+```
+
+You need to look for devices listed under UD, USB, DISK
 
 Which helps to find all your devices (didn't want to burn a CD, it's not 2005 unfortunalty)
 
 You can then boot from USB (I used the 3rd port down on back panel) 
 ``` boot usb3/disk@2:2;\\yaboot ``` 
+Note:
 
 Disk 2: partiton 2 is default
 
 Getting started
 ---
+
+Make sure to use a power pc compatible install: I used: https://cdimage.debian.org/cdimage/ports/12.0/powerpc/
+
+Also make sure to plug the ethernet cable into the top port (port 0) as this will be used to make the full Debian install. 
+
+I ignored most of the warnings for mirrors and minimal install, as I kind of knew it would be hell since I hadn't received the new RAM yet. 
+Took 60 seconds for the first Init script to start...
+
+And the mac pro g5 was screaming through half of the install. 
+
+
+Attempt #2
+---
+
+So I thought let's try something else...
+
+I used the ISO from the video:
+
+https://fienixppc.blogspot.com/p/blog-page.html
+
+Which is specifically designed to have a minimal Mate Desktop which would help a lot and many more base packages. 
+
+Repeated the boot process and voilà. 
+
+
+
+
 
 
