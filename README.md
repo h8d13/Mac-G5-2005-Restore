@@ -89,6 +89,7 @@ _Note: Disk 2: partiton 2 is default_
 
 Getting started
 ---
+(Skip this if you want to know how to get it acutally to work LOL) 
 
 Make sure to use a power pc compatible install: I used: https://cdimage.debian.org/cdimage/ports/12.0/powerpc/
 
