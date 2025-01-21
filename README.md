@@ -128,11 +128,11 @@ I also checked out the ressource monitor to find out:
 Disk is newer SSD with 500GB with 5.5GB for the OS. 
 Made basic DD test:
 
-dd if=/dev/zero of=./testfile bs=1G count=1 oflag=direct
+```dd if=/dev/zero of=./testfile bs=1G count=1 oflag=direct```
+
 11.3s @ 88mb/s
 
 Uses about 1GB RAM at rest, meaning with my new 8GB it would be perfect. (Swap was barely being used)
-
 CPU(1 and 2) is between 3-13% in idle which is great.
 
 I did find them to jump a lot. And let's say the patterns are interesting to say the least:
@@ -142,3 +142,5 @@ I did find them to jump a lot. And let's say the patterns are interesting to say
 ^^ Yes that's 100% on both cores just launching the browser.
 
 Some other intresting patterns, is that it will prioritize loading on CPU2 and keep the CPU1 in lower half when doing heavier work. 
+Now will re-try the same after installing new RAM sticks as that should help A LOT (about 4x space). 
+
