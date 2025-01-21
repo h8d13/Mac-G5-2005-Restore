@@ -101,6 +101,7 @@ I used the ISO from the video: Rufus to flash so it autodetects settings.
 https://fienixppc.blogspot.com/p/blog-page.html
 
 Which is specifically designed to have a minimal Mate Desktop which would help a lot and many more base packages. 
+Also is made for powerpc editions, so I hope it is better than any other port that could work.
 
 Repeated the boot process and voilà. 
 
