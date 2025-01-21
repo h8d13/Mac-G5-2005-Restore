@@ -141,3 +141,4 @@ I did find them to jump a lot. And let's say the patterns are interesting to say
 
 ^^ Yes that's 100% on both cores just launching the browser.
 
+Some other intresting patterns, is that it will prioritize loading on CPU2 and keep the CPU1 in lower half when doing heavier work. 
