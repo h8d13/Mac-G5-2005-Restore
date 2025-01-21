@@ -89,6 +89,7 @@ Took 60 seconds for the first Init script to start...
 
 And the mac pro g5 was screaming through half of the install. 
 
+It even worked from a USB 3.2 which are I guess backwards compatible. 
 
 Attempt #2
 ---
