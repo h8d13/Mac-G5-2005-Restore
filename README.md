@@ -53,6 +53,12 @@ Check Casey Cullen's channel out on YouTube!!!!!
 Hold command and option at the same time + O and F (OpenFirmware) 
 You should now see a console like white terminal. 
 
+If you see this screen:
+![images](https://github.com/user-attachments/assets/6600058e-5dad-42fc-b8fb-4acb03d2706a)
+
+Don't worry (for me it was simply because I unplugged the old drive) and restart with holding the right keys!
+In later systems this is easier I believe, but back then yes it's 4 keys.
+
 **If you're struggling to see this screen here are two tips:**
 - If you're using a regular keyboard its ALT and Windows key (and O + F).
 - If you're seeing the regular old OS directly i recommend removing the drive altogether.
