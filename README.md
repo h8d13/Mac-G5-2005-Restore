@@ -52,6 +52,7 @@ Check Casey Cullen's channel out on YouTube!!!!!
 
 Hold command and option at the same time + O and F (OpenFirmware) 
 You should now see a console like white terminal. 
+
 If you're struggling to see this screen here are two tips:
   If you're using a regular keyboard its ALT and Windows key.
   If you're seeing the regular old OS directly i recommend removing the drive altogether. 
@@ -98,8 +99,6 @@ Which is specifically designed to have a minimal Mate Desktop which would help a
 
 Repeated the boot process and voilà. 
 
-
-
-
+![20250121_171323](https://github.com/user-attachments/assets/ec4fa379-17c8-4a79-b715-22eca546e237)
 
 
