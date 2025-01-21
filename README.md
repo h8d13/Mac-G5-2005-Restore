@@ -124,4 +124,18 @@ Also comes with Synaptic which is a neat package manager.
 ![20250121_174349](https://github.com/user-attachments/assets/4ca7f46a-3a73-4152-b555-b15ac48908bf)
 
 
+I also checked out the ressource monitor to find out:
+Disk is newer SSD with 500GB with 5.5GB for the OS. 
+Made basic DD test:
+
+dd if=/dev/zero of=./testfile bs=1G count=1 oflag=direct
+11.3s @ 88mb/s
+
+Uses about 1GB RAM at rest, meaning with my new 8GB it would be perfect. (Swap was barely being used)
+
+CPU(1 and 2) is between 3-13% in idle which is great.
+
+I did find them to jump a lot. And let's say the patterns are interesting to say the least:
+
+
 
