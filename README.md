@@ -133,6 +133,7 @@ Made basic DD test:
 11.3s @ 88mb/s
 
 Uses about 1GB RAM at rest, meaning with my new 8GB it would be perfect. (Swap was barely being used)
+
 CPU(1 and 2) is between 3-13% in idle which is great.
 
 I did find them to jump a lot. And let's say the patterns are interesting to say the least:
