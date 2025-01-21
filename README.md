@@ -119,6 +119,8 @@ Repeated the boot process and voilà.
 ![20250121_171323](https://github.com/user-attachments/assets/ec4fa379-17c8-4a79-b715-22eca546e237)
 
 Pressed enter and 30 minutes later we are in!
+Also comes with Synaptic which is a neat package manager. 
+
 ![20250121_174349](https://github.com/user-attachments/assets/4ca7f46a-3a73-4152-b555-b15ac48908bf)
 
 
