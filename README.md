@@ -54,6 +54,7 @@ Hold command and option at the same time + O and F (OpenFirmware)
 You should now see a console like white terminal. 
 
 If you see this screen:
+
 ![images](https://github.com/user-attachments/assets/6600058e-5dad-42fc-b8fb-4acb03d2706a)
 
 Don't worry (for me it was simply because I unplugged the old drive) and restart with holding the right keys!
