@@ -144,3 +144,7 @@ I did find them to jump a lot. And let's say the patterns are interesting to say
 Some other intresting patterns, is that it will prioritize loading on CPU2 and keep the CPU1 in lower half when doing heavier work. 
 Now will re-try the same after installing new RAM sticks as that should help A LOT (about 4x space). 
 
+
+Sorry about the horrible screenshots. 
+
+
