@@ -147,4 +147,4 @@ Now will re-try the same after installing new RAM sticks as that should help A L
 
 Sorry about the horrible screenshots. 
 
-
+https://www.youtube.com/watch?v=czZpD8Frlg8
