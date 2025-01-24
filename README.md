@@ -41,6 +41,8 @@ We can use regular SATA SSDs which are backward compatible even tho we will not 
 ---
 You can also go wild and upgrade GPU using regular PCIe connectors, you can also get modifications boards with the remaining PCIe slots!
 
+I'm tryong to order some spare aprts to see how to get NVMes to work and perhaps get more write speed ? 
+
 ## SPECIAL THANKS
 ---
 https://www.youtube.com/watch?v=cS58kQ10qas
