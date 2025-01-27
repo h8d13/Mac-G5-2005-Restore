@@ -94,7 +94,7 @@ Getting started
 ---
 (Skip this if you want to know how to get it acutally to work LOL) 
 
-Make sure to use a power pc compatible install: I used: https://cdimage.debian.org/cdimage/ports/12.0/powerpc/
+Make sure to use a power pc compatible install
 
 Also make sure to plug the ethernet cable into the top port (port 0) as this will be used to make the full Debian install. 
 
