@@ -161,7 +161,7 @@ The base fienix install while a great start isn't going to cut it. Simply it is 
 
 **More research later: Ive settled on Adeline Linux (Downloaded the Mate ppc64 version) **
 
-Then used ```boot3/disk@2:3,\boot\ofboot.b``` 
+Then used ```boot usb3/disk@2:3,\boot\ofboot.b``` 
 
 Wait 15-30 seconds.
 
