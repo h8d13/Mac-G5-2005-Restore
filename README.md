@@ -1,4 +1,4 @@
-# g5-restore
+# g5-powerpc-restore
 
 Checking for serials. 
 
