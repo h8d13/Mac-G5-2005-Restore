@@ -171,6 +171,8 @@ https://youtube.com/clip/Ugkx-qr8P1TkmQmn9nLohN0Q67pNOsL5D72_?si=eMsQDZBwlgn5iCa
 
 Thanks to ActionRetro on YT. 
 
+We still need it to boot automatically to this new Adéline system...
+
 
 
 
