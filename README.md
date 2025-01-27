@@ -86,7 +86,7 @@ Which helps to find all your devices (didn't want to burn a CD, it's not 2005 un
 
 You can then boot from USB (I used the 3rd port down on back panel):
 
-``` boot usb3/disk@2:2;\\yaboot ``` 
+``` boot usb3/disk@2:2,\\yaboot ``` 
 
 _Note: Disk 2: partiton 2 is default_
 
