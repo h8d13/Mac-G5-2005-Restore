@@ -49,7 +49,7 @@ https://www.youtube.com/watch?v=cS58kQ10qas
 
 Check Casey Cullen's channel out on YouTube!!!!!
 
-## Booting
+## Booting from USB using Open-Firmware
 ---
 
 Hold command and option at the same time + O and F (OpenFirmware) 
@@ -157,15 +157,19 @@ Making it our own
 
 While it's great we have an OS running on this weird architecture, we also want to be able to do some more things. 
 
-The base fienix install while a great start isn't going to cut it. 
+The base fienix install while a great start isn't going to cut it. Simply it is a fan project, and isn't modern enough for us to be able to get latest tech on here.
 
-So first we can add the sources of Sid (testing repos debian) 
+**More research later: Ive settled on Adeline Linux (Downloaded the Mate ppc64 version) **
 
-deb http://deb.debian.org/debian/ sid main contrib non-free
-deb http://security.debian.org/ sid-security main contrib non-free
-deb http://deb.debian.org/debian/ testing main contrib non-free
+Then used ```boot3/disk@2:3,\boot\ofboot.b``` 
 
-We will also need super user access which is simple you can simply type: su
+Wait 15-30 seconds.
+
+You fucking did it.
+
+https://youtube.com/clip/Ugkx-qr8P1TkmQmn9nLohN0Q67pNOsL5D72_?si=eMsQDZBwlgn5iCa1
+
+Thanks to ActionRetro on YT. 
 
 
 
