@@ -151,3 +151,23 @@ Now will re-try the same after installing new RAM sticks as that should help A L
 Sorry about the horrible screenshots. 
 
 https://www.youtube.com/watch?v=czZpD8Frlg8
+
+Making it our own
+---
+
+While it's great we have an OS running on this weird architecture, we also want to be able to do some more things. 
+
+The base fienix install while a great start isn't going to cut it. 
+
+So first we can add the sources of Sid (testing repos debian) 
+
+deb http://deb.debian.org/debian/ sid main contrib non-free
+deb http://security.debian.org/ sid-security main contrib non-free
+deb http://deb.debian.org/debian/ testing main contrib non-free
+
+We will also need super user access which is simple you can simply type: su
+
+
+
+
+
