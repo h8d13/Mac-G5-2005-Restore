@@ -157,8 +157,27 @@ Making it our own
 ---
 
 How can we get updates for Fienix? 
+----
 
+su
+cd
 
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys <key_id>
+
+Sources for my G5 add to synaptic:
+
+# binary default
+deb http://ftp.ports.debian.org/debian-ports/ unstable main
+deb http://ftp.ports.debian.org/debian-ports/ unreleased main
+
+# source
+deb-src http://ftp.debian.org/debian/ unstable main
+
+Reload and you should be able to fully update & upgrade
+
+It will also make you rename things that were badly renamed to fienix, press yes everytime you are asked. 
+
+You should be good to go. 
 
 
 
