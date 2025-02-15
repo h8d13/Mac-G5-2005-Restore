@@ -181,9 +181,45 @@ source
 deb-src http://ftp.debian.org/debian/ unstable main
 ```
 
+You can also try sid releases which include powerpc ports:
+It will also make you rename things that were badly renamed to fienix, press yes everytime you are asked. 
+
+This will also most likely trigger a kernel update:
+
+You will need to find your /boot folder
+and /etc/yaboot.conf
+
+uname -r to check current version
+
+[Fienix blog post that helped](https://fienixppc.blogspot.com/p/troubleshooting-of.html)
+
+Make Yaboot Parameter Permanent
+
+When you find boot parameters that work, you can make them permanent by editing /etc/yaboot.conf as root: 
+
+    Open Mate Terminal and enter "su -" and your root password
+    Enter "nano /etc/yaboot.conf"
+    Locate the section that begins with "image=/boot/Linux" and edit the "append" line to enter your boot parameter (or add the append line if one does not exist) so it looks similar to the below example (do not include "Linux" in the append line):  
+
+    image=/boot/vmlinux
+            label=Linux
+            read-only
+            initrd=/boot/initrd.img
+            append="nouveau.modeset=1 video=TV-1:d video=offb:off video=nouveaufb:off"
+
+     Press Ctrl + X to exit, and press Y to save when prompted
+     In Mate Terminal, still as root, enter "ybin -v"
+
+So i've found mine which pointed to vmlinux and vmlinux.old
+
+Don't forget after updating to newest path:
+
+sudo ybin -v
+
+Then you should get a funny message "Blessing dev/sda2 with Holy Pinguin Pee"
 Reload and you should be able to fully update & upgrade
 
-It will also make you rename things that were badly renamed to fienix, press yes everytime you are asked. 
+
 
 You should be good to go. Make sure to reboot. 
 
