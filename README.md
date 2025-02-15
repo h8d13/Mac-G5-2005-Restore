@@ -156,23 +156,8 @@ https://www.youtube.com/watch?v=czZpD8Frlg8
 Making it our own
 ---
 
-While it's great we have an OS running on this weird architecture, we also want to be able to do some more things. 
+How can we get updates for Fienix? 
 
-The base fienix install while a great start isn't going to cut it. Simply it is a fan project, and isn't modern enough for us to be able to get latest tech on here.
-
-**More research later: Ive settled on Adeline Linux (Downloaded the Mate ppc64 version) **
-
-Then used ```boot usb3/disk@2:3,\boot\ofboot.b``` 
-
-Wait 15-30 seconds.
-
-You fucking did it.
-
-https://youtube.com/clip/Ugkx-qr8P1TkmQmn9nLohN0Q67pNOsL5D72_?si=eMsQDZBwlgn5iCa1
-
-Thanks to ActionRetro on YT. 
-
-We still need it to boot automatically to this new Adéline system...
 
 
 
