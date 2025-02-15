@@ -158,13 +158,18 @@ Making it our own
 
 How can we get updates for Fienix? 
 ----
+Can be a little difficult due to the OS and how debian updates needs system architecture signatures. 
+Ge to root 
 
 su
+adminRootPW
+
 cd
 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys <key_id>
 
-Sources for my G5 add to synaptic:
+Sources for my G5 add to synaptic (Start menu > Administration):
+Find repositories in top bar. 
 
 # binary default
 deb http://ftp.ports.debian.org/debian-ports/ unstable main
