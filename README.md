@@ -211,17 +211,41 @@ When you find boot parameters that work, you can make them permanent by editing 
      In Mate Terminal, still as root, enter "ybin -v"
 
 So i've found mine which pointed to vmlinux and vmlinux.old
+This is importnat because if you're trying to upgrade you need to put the stuff to recover at the bottom properly so you don't have to restart from scratch. 
 
-Don't forget after updating to newest path:
+Don't forget after updating to newest paths, and setting the OLD machine!!!! 
 
-sudo ybin -v
+`sudo ybin -v` do it everytime you make a change.
 
 Then you should get a funny message "Blessing dev/sda2 with Holy Pinguin Pee"
 Reload and you should be able to fully update & upgrade
 
+If you f'ed up you can still get in shell at login by usign CTRL ALT f2 to open a shell. And change your boot back to old kernel.
+Only after 50 retries of playing around with x11 settings:
+
+sudo nano /etc/X11/xorg.conf.d/20-gpu.conf
+`
+Section "Device"
+    Identifier "NVIDIA"
+    Driver "nouveau"
+    Option "NoAccel" "True"
+EndSection
+`
+Save the file. 
+
+echo "export LIBGL_ALWAYS_SOFTWARE=1" | sudo tee -a /etc/environment
+
+sudo systemctl restart lightdm
+
+You should be good to go. Make sure to reboot for the 150th time. 
+
+You should then when you uname -a get `6.12.13` or whatever version you updated to. This process can be annoying and complex, especially working with several terminals (OF, Yaboot, and then Linux kernel updates). 
+Upgraded from ` 6.0.0.6`
 
 
-You should be good to go. Make sure to reboot. 
+
+
+
 
 
 
