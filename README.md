@@ -270,6 +270,16 @@ But made it much longer using the count=10. And got around 800mb/s.
 
 ---
 
+Don't forget to change the root password :)
+How fienix works is by giving you a limited profile and keeping the root clean.  
 
+sudo passwd root
 
+Do the same for fienix profile.
 
+Then go to the sudoers file: 
+And add:
+
+```fienix ALL=(ALL:ALL) ALL``` 
+
+Now you should be able to skip the `su` and use sudo instead. 
