@@ -4,8 +4,10 @@ Checking for serials.
 
 You can find them under the main cover. I had bought 3 from FB marketplace (for 150$): 
 
+```
 Cl62901ev5w dual 2.3 512 250 6600 
 G853758gru2 2.0 51 160 9600
+```
 
 So based on this we can already tell which one is useless and which one is good :)
 
@@ -31,7 +33,9 @@ The original ram sticks are horrible for modern comparison, upgrade safely with 
 
 240 Pin Dimm - 1.8v - PC2-4200 (533Mhz) - ECC Registered x4 2GiB
 
-Bringing our ram from 512 mb (2x 256mb) to 8Gib. Which is considerable upgrade!
+Bringing our ram from 512 mb (2x 256mb) + 2x1gb to 8Gib.
+Which is considerable upgrade!
+I actually kept all 4 previous RAMS and added the 4 new ones in mathced pairs and didn't get any issues with the sizes. 
 
 ## Memory
 ---
