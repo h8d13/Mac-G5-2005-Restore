@@ -159,14 +159,16 @@ Making it our own
 How can we get updates for Fienix? 
 ----
 Can be a little difficult due to the OS and how debian updates needs system architecture signatures. 
-Ge to root 
-
+Get to root.
+```
 su
 adminRootPW
 
 cd
 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys <key_id>
+```
+(you find the key id in the error message when accessing mirrorslists)
 
 Sources for my G5 add to synaptic (Start menu > Administration):
 Find repositories in top bar. 
