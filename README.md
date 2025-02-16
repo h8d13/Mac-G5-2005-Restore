@@ -30,12 +30,12 @@ Better to check the cables for damage (often  present when they were plugged-in/
 ---
 
 The original ram sticks are horrible for modern comparison, upgrade safely with backwards compatibility to:
-
+```
 240 Pin Dimm - 1.8v - PC2-4200 (533Mhz) - ECC Registered x4 2GiB
-
-Bringing our ram from 512 mb (2x 256mb) + 2x1gb to 8Gib.
+```
+Bringing our ram from 2.5gb (2x 256mb) + 2x1gb to 10gb.
 Which is considerable upgrade!
-I actually kept all 4 previous RAMS and added the 4 new ones in mathced pairs and didn't get any issues with the sizes. 
+I actually kept all 4 previous RAMS and added the 4 new ones in matched pairs and didn't get any issues with the sizes. 
 
 ## Memory
 ---
@@ -99,15 +99,14 @@ Getting started
 ---
 (Skip this if you want to know how to get it acutally to work LOL) 
 
-Make sure to use a power pc compatible install
+Make sure to use a power pc compatible install, i tried debian.
 
 Also make sure to plug the ethernet cable into the top port (port 0) as this will be used to make the full Debian install. 
 
 I ignored most of the warnings for mirrors and minimal install, as I kind of knew it would be hell since I hadn't received the new RAM yet. 
 Took 60 seconds for the first Init script to start...
 
-And the mac pro g5 was screaming through half of the install. 
-
+And the mac pro g5 was screaming through half of the install. And the boot loader wasn't properly loaded for yaboot. Then the mirrors also didn't want to pick up on the powerpc architecture.
 It even worked from a USB 3.2 which are I guess backwards compatible. 
 
 Attempt #2
