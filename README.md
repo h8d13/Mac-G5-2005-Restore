@@ -250,7 +250,22 @@ Upgraded from ` 6.0.0.6`.
 
 
 
+---
 
+Testing new NVME drive, made sure it was empty and MBR/DOS. 
+
+sudo fdisk /dev/nvme0n1
+then n, then p
+then enter, enter. 
+w to write changes.
+
+Simply have to mount it now. 
+
+Remade the dd test ```dd if=/dev/zero of=./testfile bs=1G count=10 oflag=direct```
+
+But made it much longer using the count=10. And got around 800mb/s. 
+
+---
 
 
 
