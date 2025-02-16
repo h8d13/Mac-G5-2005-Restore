@@ -283,3 +283,4 @@ And add:
 ```fienix ALL=(ALL:ALL) ALL``` 
 
 Now you should be able to skip the `su` and use sudo instead. 
+If it worked you can `sudo whoami` and it shoudl return root because of how sudo works. 
