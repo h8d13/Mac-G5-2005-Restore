@@ -35,11 +35,15 @@ The original ram sticks are horrible for modern comparison, upgrade safely with 
 ```
 Bringing our ram from 2.5gb (2x 256mb) + 2x1gb to 10gb.
 Which is considerable upgrade!
-I actually kept all 4 previous RAMS and added the 4 new ones in matched pairs and didn't get any issues with the sizes. 
+I actually kept all 4 previous RAMS and added the 4 new ones in matched pairs and didn't get any issues with the sizes.
+
+RAM speeds are low compared to today's standards but it's not felt that mutch using simple apps and code. 
 
 ## Memory
 ---
 We can use regular SATA SSDs which are backward compatible even tho we will not get the full speed, you can get them for cheap reconditionned (20$ for 512 GiB)
+
+This is probably the coolest upgrade as we can just throw out the old sata, throw in our new ssd and a nvme over PCIe for storage. 
 
 ## GPU
 ---
