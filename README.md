@@ -1,4 +1,4 @@
-# Mac-G5-powerpc-full-restore
+# Mac-G5-PowerPC_x64-Full-Restore
 
 Checking for serials. 
 
