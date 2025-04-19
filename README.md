@@ -96,14 +96,15 @@ You can then boot from USB (I used the 3rd port down on back panel):
 
 ``` boot usb3/disk@2:2,\\yaboot ``` 
 syntax might need slight adjustements based on the port you used and if you made weird partitions. 
+> You might get an error load size too small adler32=1 loadsize = 0 I falshed it again to a different drive and made sure to properly eject this time. 
 
-_Note: Disk 2: partiton 2 is default_
+_Note: Disk 2: partiton 2 is default_ 
 
 Getting started
 ---
 (Skip this if you want to know how to get it acutally to work LOL) 
 
-Make sure to use a power pc compatible install, i tried debian.
+Make sure to use a power pc compatible install, i tried debian ports.
 
 Also make sure to plug the ethernet cable into the top port (port 0) as this will be used to make the full Debian install. 
 
@@ -111,7 +112,9 @@ I ignored most of the warnings for mirrors and minimal install, as I kind of kne
 Took 60 seconds for the first Init script to start...
 
 And the mac pro g5 was screaming through half of the install. And the boot loader wasn't properly loaded for yaboot. Then the mirrors also didn't want to pick up on the powerpc architecture.
-It even worked from a USB 3.2 which are I guess backwards compatible. 
+It even worked from a USB 3.2 which are I guess backwards compatible. The sources I couldn't even begin to try to understand as you have to go for sid version up to x.XX 
+
+[Wooty-B G5 Guide](https://github.com/Wooty-B/Power_Mac_G5_Guide/blob/main/Install-Sid.md)
 
 Attempt #2
 ---
@@ -220,7 +223,7 @@ When you find boot parameters that work, you can make them permanent by editing 
      In Mate Terminal, still as root, enter "ybin -v"
 
 So i've found mine which pointed to vmlinux and vmlinux.old
-This is importnat because if you're trying to upgrade you need to put the stuff to recover at the bottom properly so you don't have to restart from scratch. 
+This is important because if you're trying to upgrade you need to put the stuff to recover at the bottom properly so you don't have to restart from scratch. 
 
 Don't forget after updating to newest paths, and setting the OLD machine!!!! 
 
@@ -255,8 +258,6 @@ You should be good to go. Make sure to reboot for the 150th time.
 You should then when you uname -a get `6.12.13` or whatever version you updated to. This process can be annoying and complex, especially working with several terminals (OF, Yaboot, and then Linux kernel updates). 
 Upgraded from ` 6.0.0.6`.
 
-
-
 ---
 
 Testing new NVME drive, made sure it was empty and MBR/DOS. 
@@ -289,3 +290,12 @@ And add:
 Now you should be able to skip the `su` and use sudo instead.
 
 If it worked you can `sudo whoami` and it should return root because of how sudo works. 
+
+--------
+
+### Happy birthday Cheesegrater <3
+
+NEW PLAN? Incoming. 19/04/2025 FIRST BOOT 04/2005. 
+
+I plan to use this debian install as a bridge to a more modern OS perfect for our boy. 
+Details incoming. 
