@@ -186,15 +186,20 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys <key_id>
 Sources for my G5 add to synaptic (Start menu > Administration):
 Find repositories in top bar. 
 
+Or add them in `/etc/apt/sources.list`
+
 binary default
 ```
-  deb http://ftp.ports.debian.org/debian-ports/ unstable main
-  deb http://ftp.ports.debian.org/debian-ports/ unreleased main
+deb http://ftp.ports.debian.org/debian-ports sid main
+deb http://ftp.ports.debian.org/debian-ports unstable main
 ```
-source
-```
-deb-src http://ftp.debian.org/debian/ unstable main
-```
+
+`apt update`
+You will get a key error which is normal. Just make sure to copy the ID into a text file.
+
+Says depracted because of old apt-key use trusted.gpg.d instead. (But then again so is the hardware lol) 
+So this will have to do.
+
 
 You can also try sid releases which include powerpc ports:
 It will also make you rename things that were badly renamed to fienix, press yes everytime you are asked. 
