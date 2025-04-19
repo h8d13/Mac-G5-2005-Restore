@@ -194,22 +194,22 @@ deb http://ftp.ports.debian.org/debian-ports sid main
 deb http://ftp.ports.debian.org/debian-ports unstable main
 ```
 
-`apt update`
+`apt update` 
 You will get a key error which is normal. Just make sure to copy the ID into a text file.
 
 Says depracted because of old apt-key use trusted.gpg.d instead. (But then again so is the hardware lol) 
 So this will have to do.
 
+then `apt upgrade`
 
 You can also try sid releases which include powerpc ports:
 It will also make you rename things that were badly renamed to fienix, press yes everytime you are asked. 
 
 This will also most likely trigger a kernel update:
 
-You will need to find your /boot folder
-and /etc/yaboot.conf
-
-uname -r to check current version
+You will need to find your `/boot` folder
+and `/etc/yaboot.conf`
+`uname -r` to check current version
 
 [Fienix blog post that helped](https://fienixppc.blogspot.com/p/troubleshooting-of.html)
 
