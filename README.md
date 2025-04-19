@@ -114,7 +114,10 @@ Took 60 seconds for the first Init script to start...
 And the mac pro g5 was screaming through half of the install. And the boot loader wasn't properly loaded for yaboot. Then the mirrors also didn't want to pick up on the powerpc architecture.
 It even worked from a USB 3.2 which are I guess backwards compatible. The sources I couldn't even begin to try to understand as you have to go for sid version up to x.XX 
 
-[Wooty-B G5 Guide](https://github.com/Wooty-B/Power_Mac_G5_Guide/blob/main/Install-Sid.md)
+[Wooty-B G5 Guide](https://github.com/Wooty-B/Power_Mac_G5_Guide/tree/main#installing-an-operating-system))
+
+He explains much better than I would all the quirks and possibilites for OS'es. 
+Altho I do believe that I managed to get somewhat of the most modern you can get to by updating Linux kernel see bellow. 
 
 Attempt #2
 ---
@@ -166,7 +169,7 @@ https://www.youtube.com/watch?v=czZpD8Frlg8
 Making it our own
 ---
 
-How can we get updates for Fienix? 
+### How can we get updates for Fienix? 
 ----
 Can be a little difficult due to the OS and how debian updates needs system architecture signatures. 
 Get to root.
@@ -260,21 +263,6 @@ Upgraded from ` 6.0.0.6`.
 
 ---
 
-Testing new NVME drive, made sure it was empty and MBR/DOS. 
-
-sudo fdisk /dev/nvme0n1
-then n, then p
-then enter, enter. 
-w to write changes.
-
-Simply have to mount it now. 
-
-Remade the dd test ```dd if=/dev/zero of=./testfile bs=1G count=10 oflag=direct```
-
-But made it much longer using the count=10. And got around 800mb/s. 
-
----
-
 Don't forget to change the root password :)
 How fienix works is by giving you a limited profile and keeping the root clean.  
 
@@ -291,11 +279,28 @@ Now you should be able to skip the `su` and use sudo instead.
 
 If it worked you can `sudo whoami` and it should return root because of how sudo works. 
 
---------
+---
+
+### More ugrades using 2 PCIe modboards
+
+First one for a NVMe drive, made sure it was empty and MBR/DOS. 
+
+sudo fdisk /dev/nvme0n1
+then n, then p
+then enter, enter. 
+w to write changes.
+
+Simply have to mount it now. 
+
+Remade the dd test ```dd if=/dev/zero of=./testfile bs=1G count=10 oflag=direct```
+But made it much longer using the count=10. And got around 800mb/s. 
+
+### 2,5 GB/s using PCIe mod board
+This is self-explanatory. 
 
 ### Happy birthday Cheesegrater <3
 
 NEW PLAN? Incoming. 19/04/2025 FIRST BOOT 04/2005. 
 
-I plan to use this debian install as a bridge to a more modern OS perfect for our boy. 
+I plan to use this debian install as a bridge to a more modern OS, perfect for our boy. 
 Details incoming. 
