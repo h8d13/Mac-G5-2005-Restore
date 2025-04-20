@@ -175,7 +175,27 @@ Special thanks also to users on the discord of POWERARCH community who helped me
 ----
 
 If you made it here probably means you are doing the same thing and perhaps you'll run into some issues:
+
+### Create a user.
+
+`useradd -m -G wheel joe` and `passwd joe`
+Set adifferent pw than root. 
+
+`sudo pacman -S xfce4 xfce4-goodies xorg`
+
+``` 
+pacman -S sudo
+EDITOR=nano visudo
+```
+Uncomment the `#%wheel ALL=(ALL) ALL` line
+
+```
+sudo pacman -S lightdm lightdm-gtk-greeter
+sudo systemctl enable lightdm
+```
+
 Browser > `pacman -S arcticfox` works perfectly fine with simple sites like github or even reddit.
 
 ![Screenshot 2025-04-20 174019](https://github.com/user-attachments/assets/8e2c8795-2576-43fc-a864-a20224019ae7)
 
+That's it folks. 
