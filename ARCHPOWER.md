@@ -99,12 +99,15 @@ hwclock --systohc
 ```
 
 Locales / Time
+
 `timedatectl set-timezone Europe/Paris`
 `timedatectl` to check and `list-timezones` if unsure. 
-`nano /etc/locale.gen` uncomment `#en_US.UTF-8 UTF8` or equivalent
-then run `locale-gen` this should set the file in `/etc/locale.conf`
-> Careful there is also a en_US iso 92831 this will corrupt most apps. 
 
+`nano /etc/locale.gen` uncomment `#en_US.UTF-8 UTF8` or equivalent
+
+then run `locale-gen` this should set the file in `/etc/locale.conf`
+
+> Careful there is also a en_US iso 92831 this will corrupt most apps. 
 
 Hostnames
 `
