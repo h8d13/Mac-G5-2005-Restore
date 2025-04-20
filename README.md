@@ -57,8 +57,7 @@ I'm trying to order some spare parts to see how to get NVMes to work and perhaps
 
 ## SPECIAL THANKS
 ---
-https://www.youtube.com/watch?v=cS58kQ10qas
-
+[Fienix Creator!](https://www.youtube.com/watch?v=cS58kQ10qas)
 Check Casey Cullen's channel out on YouTube!!!!!
 
 ## Booting from USB using Open-Firmware
@@ -92,7 +91,7 @@ You need to look for devices listed under UD, USB, DISK
 
 You can use space or arrow down to scroll. 
 
-![img_1334](https://github.com/user-attachments/assets/b65c0c15-e215-4bed-ad5e-bcc172a70b16)
+![Screenshot 2025-04-20 123136](https://github.com/user-attachments/assets/63d43890-bad2-4f12-9515-9f7bac6457f1)
 
 Which helps to find all your devices (didn't want to burn a CD, it's not 2005 unfortunalty)
 
