@@ -1,6 +1,6 @@
 # Mac-G5-PowerPC_x64-Full-Restore
 
-Go here BETTER SOLUTIONS (More work, but better.) :) > [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ARCHPOWER.md) 
+Go here BETTER SOLUTIONS. More work, but better. :) > [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ARCHPOWER.md) 
 
 Checking for serials. 
 
