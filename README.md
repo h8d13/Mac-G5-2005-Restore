@@ -1,6 +1,7 @@
 # Mac-G5-PowerPC_x64-Full-Restore
 
-Operating on this page is Debian based (Fienix OS) 
+Operating system on this page is Debian based (Fienix OS).
+
 For Arch > More work, but cooler. [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ARCHPOWER.md) 
 
 Checking for serials. 
