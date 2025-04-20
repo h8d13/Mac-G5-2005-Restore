@@ -308,57 +308,6 @@ But made it much longer using the count=10. And got around 800mb/s.
 ### 2,5 GB/s using PCIe mod board
 This is self-explanatory. 
 
-
-# The ACTUAL SOLUTION BECAUSE YOU ARE STILL HERE AND I'M DONE WITH THE 🐰🐇 HOLES. 
-### Happy 20th birthday Cheesegrater <3
-
-NEW PLAN? Incoming. 19/04/2025 FIRST BOOT WAS ON 04/2005. 
-So I'll dive in this last hole. Then I'll update the guide. 
-
-STEP 1: TAKE A SCREENSHOT OF YOUR DEVALIAS, WE'LL NEED IT LATER. 
-![image](https://github.com/user-attachments/assets/6f002eb2-c0b2-428d-bf9a-61fa12a86b2c)
-
-Get the right iso, flash it, you know the drill. 
-[ArchPower](https://archlinuxpower.org/)
-
-Get the PPC64 image (careful PPC64LE is not the same thing. Learned this the hardway.)
-Then instead of the boot usb command use the `boot ud:,\\:tbxi` 
-
-Use `devalias` in OpenFirmware white console thing to see your ud device. 
-If it's not there you might need to set it manually `devalias ud /pci@f2000000/usb@1b/disk@1`. What I did was restart a couple times and it set itself. 
-
----
-
-Once the ram risk is loaded you should get to a shell `root@archiso`
-We will now have to do the actual arch install without `archinstall` type installer. 
-So let's get our hands dirty.
-
-----
-
-`ip link` find your interfaces, check that one of them says `UP`
-`ping google.com` should return packets. 
-Generate locales.
-`timedatectl set-timezone Europe/Paris`
-`timedatectl` to check and `list-timezones` if unsure. 
-
-----
-
-## Partitioning for HFS
-> I had unplugged my drive because it had the debian install and kept booting to it (Weird yaboot binary points directly to it, even booting off usb would get me to the debian install)
-
-When i plugged it back in I couldnt find it in `lsblk` or `fdisk -l`
-HERE IS THE FIX WITHOUT REBOOTING!
-`echo "- - -" > /sys/class/scsi_host/host0/scan` Idk, you tell me. 
-
-|||| STRUCS
-
-
-hformat for the HFS partition
-
-
-
-
-
-
+---------------------
 
 
