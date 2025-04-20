@@ -2,7 +2,7 @@
 
 Operating system on this page is Debian based (Fienix OS).
 
-For Arch > More work, but cooler. [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ARCHPOWER.md) 
+For Arch > More work, but cooler. [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ARCH-PPC64-G5.md)
 
 Checking for serials. 
 
@@ -313,3 +313,5 @@ This is self-explanatory.
 
 Here is a one hour documentary before apple became kinda garbage. 
 [65Scribe](https://www.youtube.com/watch?v=czZpD8Frlg8)
+
+For Arch > More work, but cooler. [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ARCH-PPC64-G5.md)
