@@ -26,16 +26,17 @@ So let's get our hands dirty... (And want to kill ourselves a little.)
 > I had unplugged my drive because it had the debian install and kept booting to it (Weird yaboot binary points directly to it, even booting off usb would get me to the debian install)
 
 When i plugged it back in I couldnt find it in `lsblk` or `fdisk -l`
+
 HERE IS THE FIX WITHOUT REBOOTING!
 `echo "- - -" > /sys/class/scsi_host/host0/scan` Idk, you tell me. 
 
 ![image](https://github.com/user-attachments/assets/9fcda476-fb02-4d12-a44f-d85f02054a2b)
 
-Yuu can see here, the usb, the target. And my first partition ^^ I made 12MB instead of 32mb because I'm an idiot. Don't be an idiot. 
-
 [ArchPowerGuide](https://github.com/kth5/archpower/wiki/Installation-%7C--NewWorld-PowerMac-with-Grub)
 
-`mac-fdisk /dev/sdX` (X being your target) 
+You can see here, the usb, the target. And my first partition ^^ I made 12MB instead of 32mb because I'm an idiot. Don't be an idiot. 
+
+`mac-fdisk /dev/sdX` (X being your target, I will refer to it as `sda` from now on) 
 
 `i` then `y`
 
@@ -43,13 +44,13 @@ Yuu can see here, the usb, the target. And my first partition ^^ I made 12MB ins
 
 `bootstrap` `Apple_Bootstrap`
 
-`w` to write (will auto create Apple_Free) 
-
+`w` to write (will auto create Apple_Free for the rest of the disk) 
 -----
 
 ## ARCH BUT WITHOUT THE LONG GUIDES 
 
 `sda1` is Partition map (auto generated with what we did above) 
+Meaning we have all we need (no swap, but fuck it, can do that later)
 
 Format HFS 
 `hformat /dev/sda2`
