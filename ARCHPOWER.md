@@ -50,12 +50,12 @@ Yuu can see here, the usb, the target. And my first partition ^^ I made 12MB ins
 ## ARCH BUT WITHOUT THE LONG GUIDES 
 
 `sda1` is Partition map (auto generated with what we did above) 
+
 Format HFS 
 `hformat /dev/sda2`
 
 Now format root:
 `mkfs.ext4 /dev/sda3`
-
 
 Mount our root part:
 `mount /dev/sda3 /mnt`
@@ -90,7 +90,6 @@ Generate locales.
 `timedatectl set-timezone Europe/Paris`
 `timedatectl` to check and `list-timezones` if unsure. 
 
-
 Hostnames
 `
 echo "cheese-grater" > /etc/hostname
@@ -110,9 +109,7 @@ pacman -S networkmanager
 systemctl enable NetworkManager
 ```
 
-
 Passwd
-
 ```
 passwd
 ```
@@ -130,7 +127,6 @@ umount -R /mnt
 reboot
 ```
 
-
 -------
 
 ## If you forgot something (that was not ctritical)  
@@ -147,7 +143,6 @@ exit
 umount -R /mnt
 reboot
 ```
-
 
 Special thanks also to users on the discord of POWERARCH community who helped me! 
 
