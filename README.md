@@ -92,10 +92,15 @@ You can use space or arrow down to scroll.
 
 Which helps to find all your devices (didn't want to burn a CD, it's not 2005 unfortunalty)
 
+## Boot of a USB !
+---
+
 You can then boot from USB (I used the 3rd port down on back panel):
 
-``` boot usb3/disk@2:2,\\yaboot ``` 
-syntax might need slight adjustements based on the port you used and if you made weird partitions. 
+``` boot usb3/disk@2:2,\\yaboot ``` this can also be done with `boot ud:,\\:tbxi` if using a grub Image. 
+
+Syntax might need slight adjustements based on the port you used and if you made weird partitions. First partition has to HFS (Apple). Don't really know how these work lmao.
+
 > You might get an error load size too small adler32=1 loadsize = 0 I falshed it again to a different drive and made sure to properly eject this time. 
 
 _Note: Disk 2: partiton 2 is default_ 
@@ -308,12 +313,6 @@ This is self-explanatory.
 ### Happy 20th birthday Cheesegrater <3
 
 NEW PLAN? Incoming. 19/04/2025 FIRST BOOT WAS ON 04/2005. 
-
-[Chimera ppc64 ISO](https://repo.chimera-linux.org/live/latest/)
-[Installation Guide Here](https://chimera-linux.org/docs/installation/boot)
-
-AND GUESS WHAT?????????? 
-It's using Musl & APK that's right just like Alpine my favorite. 
 
 So I'll dive in this last hole. Then I'll update the guide. 
 
