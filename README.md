@@ -308,13 +308,13 @@ This is self-explanatory.
 ### Happy 20th birthday Cheesegrater <3
 
 NEW PLAN? Incoming. 19/04/2025 FIRST BOOT WAS ON 04/2005. 
-I plan to use this debian install as a bridge to a more modern OS, perfect for our boy. 
-So dd to a stick and this time no 5 hours of issues. 
 
 [Chimera ppc64 ISO](https://repo.chimera-linux.org/live/latest/)
 [Installation Guide Here](https://chimera-linux.org/docs/installation/boot)
 
 AND GUESS WHAT?????????? 
 It's using Musl & APK that's right just like Alpine my favorite. 
+
+So I'll dive in this last hole. Then I'll update the guide. 
 
 
