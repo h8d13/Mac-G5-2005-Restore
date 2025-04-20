@@ -85,7 +85,7 @@ Chroot into your root part (this basically is like going into the system)
 
 Here you would do all the weird arch shenanigans. 
 
-[Arch](https://wiki.archlinux.org/title/Installation_guide)
+[ArchFullInstallationWiki](https://wiki.archlinux.org/title/Installation_guide)
 
 `ip link` find your interfaces, check that one of them says `UP`
 
