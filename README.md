@@ -123,9 +123,10 @@ Took 60 seconds for the first Init script to start...
 And the mac pro g5 was screaming through half of the install. And the boot loader wasn't properly loaded for yaboot. Then the mirrors also didn't want to pick up on the powerpc architecture.
 It even worked from a USB 3.2 which are I guess backwards compatible. The sources I couldn't even begin to try to understand as you have to go for sid version up to x.XX 
 
-[Wooty-B G5 Guide](https://github.com/Wooty-B/Power_Mac_G5_Guide/tree/main#installing-an-operating-system))
+[Wooty-B G5 Guide](https://github.com/Wooty-B/Power_Mac_G5_Guide/tree/main#installing-an-operating-system)
 
-He explains much better than I would all the quirks and possibilites for OS'es. 
+He explains much better than I would all the quirks and possibilites for OS'es but also has a lot of good information about the Hardware. 
+
 Altho I do believe that I managed to get somewhat of the most modern you can get to by updating Linux kernel see bellow. 
 
 Attempt #2
