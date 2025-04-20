@@ -166,3 +166,9 @@ reboot
 ```
 
 Special thanks also to users on the discord of POWERARCH community who helped me! 
+
+----
+
+If you made it here probably means you are doing the same thing and perhaps you'll run into some issues:
+Browser > `pacman -S arcticfox` works perfectly fine with simple sites like github or even reddit.
+
