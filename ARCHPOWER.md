@@ -30,7 +30,8 @@ HERE IS THE FIX WITHOUT REBOOTING!
 `echo "- - -" > /sys/class/scsi_host/host0/scan` Idk, you tell me. 
 
 ![image](https://github.com/user-attachments/assets/9fcda476-fb02-4d12-a44f-d85f02054a2b)
-YOu can see here, the usb, the target. And my first partition I made 12MB instead of 32 because I'm an idiot. Don't be an idiot. 
+
+Yuu can see here, the usb, the target. And my first partition ^^ I made 12MB instead of 32mb because I'm an idiot. Don't be an idiot. 
 
 [ArchPowerGuide](https://github.com/kth5/archpower/wiki/Installation-%7C--NewWorld-PowerMac-with-Grub)
 
