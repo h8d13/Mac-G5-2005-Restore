@@ -1,6 +1,7 @@
 # Mac-G5-PowerPC_x64-Full-Restore
 
-Go here BETTER SOLUTIONS. More work, but better. :) > [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ARCHPOWER.md) 
+Operating on this page is Debian based (Fienix OS) 
+For Arch > More work, but cooler. [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ARCHPOWER.md) 
 
 Checking for serials. 
 
@@ -168,10 +169,7 @@ I did find them to jump a lot. And let's say the patterns are interesting to say
 Some other intresting patterns, is that it will prioritize loading on CPU2 and keep the CPU1 in lower half when doing heavier work. 
 Now will re-try the same after installing new RAM sticks as that should help A LOT (about 4x space). 
 
-
 Sorry about the horrible screenshots. 
-
-https://www.youtube.com/watch?v=czZpD8Frlg8
 
 Making it our own
 ---
@@ -312,4 +310,5 @@ This is self-explanatory.
 
 ---------------------
 
-
+Here is a one hour documentary before apple became kinda garbage. 
+[65Scribe](https://www.youtube.com/watch?v=czZpD8Frlg8)
