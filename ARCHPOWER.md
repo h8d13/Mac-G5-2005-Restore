@@ -28,6 +28,7 @@ So let's get our hands dirty... (And want to kill ourselves a little.)
 When i plugged it back in I couldnt find it in `lsblk` or `fdisk -l`
 
 HERE IS THE FIX WITHOUT REBOOTING!
+
 `echo "- - -" > /sys/class/scsi_host/host0/scan` Idk, you tell me. 
 
 ![image](https://github.com/user-attachments/assets/9fcda476-fb02-4d12-a44f-d85f02054a2b)
@@ -42,9 +43,10 @@ You can see here, the usb, the target. And my first partition ^^ I made 12MB ins
 
 `c` `64` `32M` 
 
-`bootstrap` `Apple_Bootstrap`
+`bootstrap` `Apple_Bootstrap` then 
 
 `w` to write (will auto create Apple_Free for the rest of the disk) 
+
 -----
 
 ## ARCH BUT WITHOUT THE LONG GUIDES 
@@ -77,10 +79,15 @@ Fstab
 Chroot into your root part
 `arch-chroot /mnt`
 
-Here you would do all the weird arch shenanigans.
+Here you would do all the weird arch shenanigans. 
+
+[Arch](https://wiki.archlinux.org/title/Installation_guide)
 
 `ip link` find your interfaces, check that one of them says `UP`
+
 `ping google.com` should return packets. 
+
+If not might be due to time: 
 
 ```
 ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
@@ -104,7 +111,6 @@ Hosts
 ```
 
 Networking
-
 ```
 pacman -S networkmanager
 systemctl enable NetworkManager
@@ -146,4 +152,3 @@ reboot
 ```
 
 Special thanks also to users on the discord of POWERARCH community who helped me! 
-
