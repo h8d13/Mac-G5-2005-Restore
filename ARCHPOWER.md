@@ -52,7 +52,9 @@ You can see here, the usb, the target. And my first partition ^^ I made 12MB ins
 ## ARCH BUT WITHOUT THE LONG GUIDES 
 
 `sda1` is Partition map (auto generated with what we did above) 
+
 Meaning we have all we need (no swap, but fuck it, can do that later)
+---
 
 Format HFS 
 `hformat /dev/sda2`
@@ -75,6 +77,8 @@ pacstrap /mnt base linux-ppc64 grub hfsutils base-devel
 ```
 Fstab
 `genfstab -U /mnt > /mnt/etc/fstab`
+
+---
 
 Chroot into your root part (this basically is like going into the system) 
 `arch-chroot /mnt`
