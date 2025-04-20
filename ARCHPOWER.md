@@ -60,10 +60,10 @@ Format HFS
 Now format root:
 `mkfs.ext4 /dev/sda3`
 
-Mount our root part:
+Mount our root part (to /mnt):
 `mount /dev/sda3 /mnt`
 
-Mount bootstrap (Fuck Yaboot) 
+Mount bootstrap GRUB (Fuck Yaboot) 
 ``` 
 mkdir -p /mnt/boot/grub
 mount /dev/sda2 /mnt/boot/grub
@@ -76,7 +76,7 @@ pacstrap /mnt base linux-ppc64 grub hfsutils base-devel
 Fstab
 `genfstab -U /mnt > /mnt/etc/fstab`
 
-Chroot into your root part
+Chroot into your root part (this basically is like going into the system) 
 `arch-chroot /mnt`
 
 Here you would do all the weird arch shenanigans. 
@@ -103,7 +103,9 @@ Hostnames
 echo "cheese-grater" > /etc/hostname
 `
 
-Hosts
+Hosts `nano /etc/hosts`
+
+Then add: 
 ```
 127.0.0.1    localhost
 ::1          localhost
@@ -136,12 +138,13 @@ reboot
 
 -------
 
-## If you forgot something (that was not ctritical)  
+## If you forgot something (that was not critical)  
 
 Because you're an idiot with severe impatience and adhd. You forgot one step somehwere. 
 Boot back to USB. 
 
 ```
+lsblk
 mount /dev/sda3 /mnt
 arch-chroot /mnt
 pacman -S networkmanager
