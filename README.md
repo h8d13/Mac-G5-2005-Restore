@@ -1,5 +1,7 @@
 # Mac-G5-PowerPC_x64-Full-Restore
 
+Go here > [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ARCHPOWER.md) 
+
 Checking for serials. 
 
 You can find them under the main cover. I had bought 3 from FB marketplace (for 150$): 
