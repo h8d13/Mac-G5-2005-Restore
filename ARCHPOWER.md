@@ -1,13 +1,12 @@
 # The ACTUAL SOLUTION BECAUSE YOU ARE STILL HERE AND I'M DONE WITH THE 🐰🐇 HOLES. 
 ### Happy 20th birthday Cheesegrater 🧀 <3
+19/04/2025 FIRST BOOT WAS ON 04/2005. 
 
-NEW PLAN? Incoming. 19/04/2025 FIRST BOOT WAS ON 04/2005. 
-So I'll dive in this last hole, probably the biggest one: Arch. 
-
-Get the right iso, flash it, you know the drill. 
+So I'll dive in this last hole, probably the biggest one: **Arch.**
+> Get the right iso, flash it, you know the drill. 
 [ArchPower](https://archlinuxpower.org/)
 
-Get the PPC64 image (careful PPC64LE is not the same thing. Learned this the hardway.)
+> Get the PPC64 image (careful PPC64LE is not the same thing. Learned this the hardway.)
 Then instead of the boot usb command use the `boot ud:,\\:tbxi` 
 
 Use `devalias` in OpenFirmware white console thing to see your ud device. 
