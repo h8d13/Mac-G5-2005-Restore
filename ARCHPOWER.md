@@ -53,6 +53,7 @@ You can see here, the usb, the target. And my first partition ^^ I made 12MB ins
 `sda1` is Partition map (auto generated with what we did above) 
 
 Meaning we have all we need (no swap, but fuck it, can do that later)
+
 ---
 
 Format HFS 
