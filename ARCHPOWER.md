@@ -2,6 +2,11 @@
 ### Happy 20th birthday Cheesegrater 🧀 <3
 19/04/2025 FIRST BOOT WAS ON 04/2005. 
 
+I fell asleep to this exact [YoutubeVid](https://youtu.be/K1T1eMyPIC4?si=yQbIAN3bgLJTLKfX&t=656)
+Now we are here. Trying to revive the G5(PCIe version) one more time. Last one I promise🤞.  
+
+----
+
 So I'll dive in this last hole, probably the biggest one: **Arch.**
 > Get the right iso, flash it, you know the drill. 
 [ArchPower](https://archlinuxpower.org/)
