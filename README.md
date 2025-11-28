@@ -246,6 +246,8 @@ Don't forget after updating to newest paths, and setting the OLD machine!!!!
 Then you should get a funny message "Blessing dev/sda2 with Holy Pinguin Pee"
 Reload and you should be able to fully update & upgrade
 
+## ENV
+
 If you f'ed up you can still get in shell at login by usign CTRL ALT f2 to open a shell. And change your boot back to old kernel.
 Only after 50 retries of playing around with x11 settings:
 
