@@ -3,7 +3,7 @@
 Operating system on this page is Debian based (Fienix OS).
 
 For Arch > More work, but cooler. [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ARCH-PPC64-G5.md)
-
+For Adelie/Alpine, more packages. [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ADELIE-ALPINE-PPC64-G5.md)
 Checking for serials. 
 
 You can find them under the main cover. I had bought 3 from FB marketplace (for 150$): 
