@@ -55,4 +55,6 @@ Now why MUSL based distros? Ported more apps !
 
 ---
 
-THis time the PC only reported 6GiB of RAM of the installed 10 from the previous Arch run. But honestly I couldn't give less of shit anymore.
+This time the PC only reported 6GiB of RAM of the installed 10 from the previous Arch run. But honestly I couldn't give less of shit anymore.
+
+<img width="1920" height="1080" alt="Screenshot 2025-11-28 21-38-10" src="https://github.com/user-attachments/assets/f484b155-23a4-4da4-ba41-f7db1d9cd85b" />
