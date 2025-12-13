@@ -1,7 +1,9 @@
 # Mac-G5-PowerPC64-Full-Restore
 
-For Debian based > Fienix OS  [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/DEBIAN-FienixOS-PPC64-G5.md)
+For Debian based > Fienix OS  [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/DEBIAN-FienixOS-PPC64.md)
+
 For Arch > More work, but cooler. [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ARCH-PPC64-G5.md)
+
 For Adelie/Alpine, more packages. [Here](https://github.com/h8d13/Mac-G5-2005-Restore/blob/main/ADELIE-ALPINE-PPC64-G5.md)
 
 Check for serials: 
